@@ -1,4 +1,5 @@
 import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
+import CourseCard from "./CourseCard";
 
-export { AppHeader, AppFooter };
+export { AppHeader, AppFooter, CourseCard };
