@@ -1,5 +1,10 @@
 import React from "react";
+import Default from "../templates/Default";
 
 export default function Login() {
-  return <div>Login</div>;
+  return (
+    <Default>
+      <p>Login</p>
+    </Default>
+  );
 }

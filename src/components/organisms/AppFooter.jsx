@@ -1,14 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Alert from "react-bootstrap/Alert";
 
 export default function AppFooter() {
   return (
-    <footer className="bg-success text-white d-flex p-2 justify-content-center">
-      <p>
-        <Link className="text-white" to="https://www.linkedin.com/in/fratoni/">
-          Criado por Mateus Fratoni Souza em 2022.
-        </Link>
-      </p>
+    <footer>
+      <Alert className="text-center" variant="dark">
+        Criado por{" "}
+        <Alert.Link target="_blank" href="https://www.linkedin.com/in/fratoni/">
+          Mateus Fratoni Souza
+        </Alert.Link>{" "}
+        em 2022.
+      </Alert>
     </footer>
   );
 }
