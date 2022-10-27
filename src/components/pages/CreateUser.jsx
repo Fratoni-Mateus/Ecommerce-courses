@@ -1,11 +1,11 @@
 import React from "react";
 import Default from "../templates/Default";
-import { LogInWrapper } from "../organisms";
+import { CreateUserWrapper } from "../organisms";
 
 export default function Login() {
   return (
     <Default>
-      <LogInWrapper />
+      <CreateUserWrapper />
     </Default>
   );
 }

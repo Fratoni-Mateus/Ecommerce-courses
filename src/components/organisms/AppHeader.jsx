@@ -24,13 +24,15 @@ export default function AppHeader() {
             aria-label="Busque aqui"
             aria-describedby="basic-addon2"
           />
-          <Button variant="outline-secondary" id="button-addon2">
+          <Button variant="outline-secondary" id="button-addon2" href="/">
             Buscar
           </Button>
         </InputGroup>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="4">Carrinho</Nav.Link>
+        <Nav.Link href="/cart" eventKey="4">
+          Carrinho
+        </Nav.Link>
       </Nav.Item>
     </Nav>
   );

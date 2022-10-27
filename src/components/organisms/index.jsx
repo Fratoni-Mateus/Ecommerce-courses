@@ -1,5 +1,15 @@
 import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
-import CourseCard from "./CourseCard";
+import PricedCourseCard from "./PricedCourseCard";
+import LogInWrapper from "./LogInWrapper";
+import CreateUserWrapper from "./CreateUserWrapper";
+import CartCourseCard from "./CartCourseCard";
 
-export { AppHeader, AppFooter, CourseCard };
+export {
+  AppHeader,
+  AppFooter,
+  PricedCourseCard,
+  LogInWrapper,
+  CreateUserWrapper,
+  CartCourseCard,
+};
