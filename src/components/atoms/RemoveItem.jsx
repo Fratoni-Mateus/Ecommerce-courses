@@ -5,7 +5,7 @@ import CloseButton from "react-bootstrap/CloseButton";
 export default function RemoveItem() {
   return (
     <Button
-      className="mb-1 icone-botao"
+      className="mb-1 button-icon"
       aria-label="Remover item"
       variant="danger"
     >

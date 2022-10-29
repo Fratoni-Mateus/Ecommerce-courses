@@ -12,10 +12,12 @@ export default function CreateUserWrapper() {
   return (
     <Stack gap={2} className="col-md-5 mx-auto">
       <CreateUserTitle />
-      <InputUserEmail />
-      <InputPassword />
-      <InputRepeatPassword />
-      <CreateAccount />
+      <form>
+        <InputUserEmail />
+        <InputPassword />
+        <InputRepeatPassword />
+        <CreateAccount />
+      </form>
     </Stack>
   );
 }

@@ -1,12 +1,14 @@
 import React from "react";
 import Default from "../templates/Default";
-import { CourseCard } from "../molecules/";
+import { LoggedCourseCard } from "../organisms";
 
 export default function Logged() {
   return (
     <Default>
-      <h2>Nome do usuário</h2>
-      <CourseCard />
+      <main>
+        <h1 className="half mx-auto">Nome do usuário</h1>
+        <LoggedCourseCard />
+      </main>
     </Default>
   );
 }

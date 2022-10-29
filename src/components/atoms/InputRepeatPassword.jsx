@@ -6,7 +6,13 @@ export default function InputRepeatPassword() {
   return (
     <InputGroup>
       <InputGroup.Text>Repetir senha</InputGroup.Text>
-      <Form.Control as="input" aria-label="With textarea" />
+      <Form.Control
+        as="input"
+        type="password"
+        required
+        placeholder="Digite novamente a sua senha"
+        aria-label="With textarea"
+      />
     </InputGroup>
   );
 }

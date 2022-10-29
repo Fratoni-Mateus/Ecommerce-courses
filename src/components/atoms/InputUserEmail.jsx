@@ -5,8 +5,14 @@ import InputGroup from "react-bootstrap/InputGroup";
 export default function InputUserEmail() {
   return (
     <InputGroup>
-      <InputGroup.Text>Nome de usuário</InputGroup.Text>
-      <Form.Control as="input" aria-label="With textarea" />
+      <InputGroup.Text>Endereço de e-mail</InputGroup.Text>
+      <Form.Control
+        as="input"
+        type="email"
+        required
+        placeholder="Digite seu e-mail"
+        aria-label="With textarea"
+      />
     </InputGroup>
   );
 }

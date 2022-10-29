@@ -6,7 +6,13 @@ export default function InputPassword() {
   return (
     <InputGroup>
       <InputGroup.Text>Senha</InputGroup.Text>
-      <Form.Control as="input" aria-label="With textarea" />
+      <Form.Control
+        as="input"
+        type="password"
+        required
+        placeholder="Digite sua senha"
+        aria-label="With textarea"
+      />
     </InputGroup>
   );
 }

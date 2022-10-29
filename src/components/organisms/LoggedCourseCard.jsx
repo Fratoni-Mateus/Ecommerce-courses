@@ -3,9 +3,9 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
-import { CourseCard, CartBadge } from "../molecules/";
+import { CourseCard, CourseBadge } from "../molecules/";
 
-export default function CartCourseCard() {
+export default function LoggedCourseCard() {
   return (
     <Card border="secondary" className="m-3 p-2">
       <Card.Body>
@@ -15,7 +15,7 @@ export default function CartCourseCard() {
               <CourseCard />
             </Col>
             <Col sm={3} md={2} lg={2} xl={2}>
-              <CartBadge />
+              <CourseBadge />
             </Col>
           </Row>
         </Accordion>

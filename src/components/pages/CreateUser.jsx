@@ -5,7 +5,9 @@ import { CreateUserWrapper } from "../organisms";
 export default function Login() {
   return (
     <Default>
-      <CreateUserWrapper />
+      <main>
+        <CreateUserWrapper />
+      </main>
     </Default>
   );
 }

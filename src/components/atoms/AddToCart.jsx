@@ -6,7 +6,7 @@ import Basket from "../../assets/Basket.png";
 export default function AddToCart() {
   return (
     <Button
-      className="mb-1 icone-botao"
+      className="mb-1 button-icon"
       aria-label="Adicionar ao carrinho"
       variant="primary"
     >
