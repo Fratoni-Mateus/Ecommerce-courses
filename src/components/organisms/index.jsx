@@ -3,8 +3,9 @@ import AppFooter from "./AppFooter";
 import LogInWrapper from "./LogInWrapper";
 import CreateUserWrapper from "./CreateUserWrapper";
 import CartCourseCard from "./CartCourseCard";
-import LoggedCourseCard from "./LoggedCourseCard";
 import SellingCourseWrapper from "./SellingCourseWrapper";
+import Loading from "./Loading";
+import LoggedCourseWrapper from "./LoggedCourseWrapper";
 
 export {
   AppHeader,
@@ -12,6 +13,7 @@ export {
   LogInWrapper,
   CreateUserWrapper,
   CartCourseCard,
-  LoggedCourseCard,
   SellingCourseWrapper,
+  Loading,
+  LoggedCourseWrapper,
 };

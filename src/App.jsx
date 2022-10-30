@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 
 import Home from "./components/pages/Home";
 import Login from "./components/pages/Login";
@@ -15,7 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/create" element={<CreateUser />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/logged" element={<Logged />} />
+        <Route path="/logged/:userId" element={<Logged />} />
       </Routes>
     </BrowserRouter>
   );

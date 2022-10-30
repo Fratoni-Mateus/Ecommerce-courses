@@ -5,6 +5,7 @@ import HomeHeader from "./HomeHeader";
 import CourseBadge from "./CourseBadge";
 import CartBadge from "./CartBadge";
 import PricedCourseCard from "./PricedCourseCard";
+import LoggedCourseCard from "./LoggedCourseCard";
 
 export {
   CourseCard,
@@ -14,4 +15,5 @@ export {
   CourseBadge,
   CartBadge,
   PricedCourseCard,
+  LoggedCourseCard,
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -9,12 +10,12 @@ export default function AppHeader() {
     <header>
       <Nav fill className="p-2 justify-content-center" variant="pills">
         <Nav.Item>
-          <Nav.Link href="/" eventKey="1">
+          <Nav.Link as={Link} to="/" eventKey="1">
             Início
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/login" eventKey="2">
+          <Nav.Link as={Link} to="/login" eventKey="2">
             Usuário
           </Nav.Link>
         </Nav.Item>
@@ -25,13 +26,18 @@ export default function AppHeader() {
               aria-label="Busque aqui"
               aria-describedby="basic-addon2"
             />
-            <Button variant="outline-secondary" id="button-addon2" href="/">
+            <Button
+              as={Link}
+              variant="outline-secondary"
+              id="button-addon2"
+              to="/"
+            >
               Buscar
             </Button>
           </InputGroup>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/cart" eventKey="4">
+          <Nav.Link as={Link} to="/cart" eventKey="4">
             Carrinho
           </Nav.Link>
         </Nav.Item>
