@@ -16,6 +16,7 @@ import CreateAccount from "./CreateAccount";
 import CreateUserTitle from "./CreateUserTitle";
 import RemoveItem from "./RemoveItem";
 import AccessCourse from "./AccessCourse";
+import LoggedUserTitle from "./LoggedUserTitle";
 
 export {
   OrderDropDown,
@@ -36,4 +37,5 @@ export {
   CreateUserTitle,
   RemoveItem,
   AccessCourse,
+  LoggedUserTitle,
 };
