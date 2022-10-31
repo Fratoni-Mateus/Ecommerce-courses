@@ -7,7 +7,7 @@ This project was created as part of my studies of Back-end development using Nod
 
 
 ## How to run it?
-First you need to clone the project to you machine and install the modules required, you do so by using the command
+First you need to clone the project to your machine and install the modules required, you do so by using the command
 <code>npm install</code>
 
 After that you need to run the project using the command 
@@ -45,10 +45,4 @@ To update a user you must send an HTTP PATCH request to the address <code>/updat
 To delete a user you must send an HTTP DELETE request to the address <code>/delete/:id</code> changing the ":id" for the id number of the user you want to delete. You need to first be logged in and send a token in the header of the request as proof of credential. You will receive a confirmation message if it is successful.
 
 
-## To-do list of what is known to be missing.
-
-Adjust the userSchema to include the ownedCourses.
-
-Create a verification routine to prevent e-mails from being registered more than once in the Database.
-
-Hide the hash salt in the password fields.
+#### Please check the to-do list for information of what is known to be missing.

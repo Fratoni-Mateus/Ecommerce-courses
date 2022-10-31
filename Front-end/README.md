@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Online-courses E-Commerce project
+## What is the purpose of this project?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web single page application was created as part of a technical challenge. It was designed following the requirements prescribed by the challenge issuer. The idea is to have a web-courses e-commerce in which the user could browse through the available courses, add them to cart, simulate a sale and them have access to it on the logged area.
 
-## Available Scripts
+## How to run this application
 
-In the project directory, you can run:
+## How to run it?
+First you need to clone the project to your machine and install the modules required, you do so by using the command
+<code>npm install</code>
 
-### `npm start`
+After that you need to run the project using the command 
+<code>npm start</code> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will run the app in the development mode. You will have the page running and you can see it in your browser in the default localhost server port. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes and you may also see any lint errors in the console.
 
-### `npm test`
+## Which routes are available?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### Please note that some of the resources in the webpage are note available, you can check them in the to-do section.
 
-### `npm run build`
+The following routes are available:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Homepage
+<code>http://localhost:3000</code>
+This is the homepage, you'll be able to see here all the courses available for sale.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###### Please note that the search bar, ordering mechanism and adding to cart are not implemented.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Login page
+<code>http://localhost:3000/login</code>
+This is the login page where the user will use to access it's account. If you fill in the form you`ll have access to the page of the mock user 4.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Create user page
+<code>http://localhost:3000/create</code>
+This is the create account page where a user will use to create it's account.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### User cart page
+<code>http://localhost:3000/cart</code>
+This is the cart page where a user can see all the products it has selected to purchase and make the purchase of the desired courses.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##### Please note that the cart page is only partly implemented. It's currently prepared to receive dynamic information but is not receiving any information, nor removing itens.
 
-## Learn More
+### Logged area page
+<code>http://localhost:3000/logged/:userId</code>
+This is the logged area where the user will have access to all the courses they currently owns.
+###### Please note that the restricted access is not yet implemented, you can see the page running when you put the numbers from 1 to 11 as the userID in the address to see a mock of the available users.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
