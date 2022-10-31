@@ -1,0 +1,24 @@
+.button-icon {
+  min-width: 7rem;
+  max-width: 7rem;
+}
+
+.card-image {
+  max-height: 15rem;
+  min-height: 5rem;
+  max-width: 15rem;
+  min-width: 5rem;
+}
+
+.half {
+  width: 50%;
+}
+
+.center {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
