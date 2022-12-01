@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-courses/static/css/main.e9e639a2.css",
+    "main.js": "/Ecommerce-courses/static/js/main.05222729.js",
+    "static/js/787.e7f02d14.chunk.js": "/Ecommerce-courses/static/js/787.e7f02d14.chunk.js",
+    "index.html": "/Ecommerce-courses/index.html",
+    "main.e9e639a2.css.map": "/Ecommerce-courses/static/css/main.e9e639a2.css.map",
+    "main.05222729.js.map": "/Ecommerce-courses/static/js/main.05222729.js.map",
+    "787.e7f02d14.chunk.js.map": "/Ecommerce-courses/static/js/787.e7f02d14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9e639a2.css",
+    "static/js/main.05222729.js"
+  ]
+}
