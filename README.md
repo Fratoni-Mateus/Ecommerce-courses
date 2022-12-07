@@ -1,4 +1,4 @@
-# Technical challenge Courses e-commerce
+# Courses e-commerce
 
 ## What is the purpose of this project?
 
