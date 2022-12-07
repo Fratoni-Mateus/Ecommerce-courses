@@ -2,9 +2,7 @@
 
 ## What is the purpose of this project?
 
-This web single page application was created as part of a technical challenge. It was designed following the requirements prescribed by the challenge issuer. 
-
-The idea is to have a web-courses e-commerce in which the user can browse through the available courses, add them to cart, simulate a sale and them have access to them on the logged area.
+This web single page application's idea is to have a web-courses e-commerce in which the user can browse through the available courses, add them to cart, simulate a sale and them have access to them on the logged area.
 <br>
 
 ## How to run this project:
@@ -23,7 +21,7 @@ Node.js for users CRUD API;
 MongoDB Atlas users database.
 <br>
 
-#### Challenge Requirements:
+#### Project goals:
 
 1. Present a list with all the courses available for subscription with photos and option to show more information about the product. **Requirement met.**
 <br>
